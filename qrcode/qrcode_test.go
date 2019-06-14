@@ -5,7 +5,7 @@ import (
 )
 
 func TestGenerateQrCode(t *testing.T) {
-	GenerateQrCode()
+	GenerateQrCode("中间件测试工作你会做到什么时候？")
 	// t.Fail()
 }
 
