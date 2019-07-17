@@ -1,7 +1,7 @@
 /// @Author winjeg,  winjeg@qq.com
 /// All rights reserved to winjeg
 
-package algrithm
+package leetcode
 func plusOne(digits []int) []int {
 	l := len(digits)
 	if l < 1 {

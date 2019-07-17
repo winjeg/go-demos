@@ -1,7 +1,7 @@
 /// @Author winjeg,  winjeg@qq.com
 /// All rights reserved to winjeg
 
-package algrithm
+package leetcode
 
 // 总体思想为把两个数组有序合并到新的数组， 并且直接计算结果
 // 多用 O(M+N)的空间
