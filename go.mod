@@ -5,7 +5,6 @@ require (
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190612170431-362f06ec6bc1 // indirect
 	github.com/cznic/sortutil v0.0.0-20181122101858-f5f958428db8 // indirect
-	github.com/etcd-io/gofail v0.0.0-20180808172546-51ce9a71510a // indirect
 	github.com/go-gl/gl v0.0.0-20190320180904-bf2b1f2f34d7 // indirect
 	github.com/go-gl/glfw v0.0.0-20190407132400-39f94f807590 // indirect
 	github.com/goki/freetype v0.0.0-20181231101311-fa8a33aabaff // indirect
@@ -14,8 +13,8 @@ require (
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/btree v1.0.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.9.1 // indirect
-	github.com/juju/errors v0.0.0-20190207033735-e65537c515d7 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
+	github.com/opentracing/opentracing-go v1.1.0 // indirect
 	github.com/pingcap/kvproto v0.0.0-20190531033352-d288a78c7482 // indirect
 	github.com/pingcap/parser v0.0.0-20190613082312-d2cf6071823d
 	github.com/pingcap/tidb v0.0.0-20190614074329-bb3a92d70f01

@@ -2,8 +2,9 @@ package qrcode
 
 import (
 	"fmt"
-	"github.com/skip2/go-qrcode"
 	"image/color"
+
+	"github.com/skip2/go-qrcode"
 )
 
 func GenerateQrCode(content string) {

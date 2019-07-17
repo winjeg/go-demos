@@ -1,6 +1,5 @@
 package leetcode
 
-
 func threeSum(nums []int) [][]int {
 	tmpMap := make(map[int]int, 10)
 	for i := range nums {

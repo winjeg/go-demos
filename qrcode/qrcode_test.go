@@ -17,8 +17,9 @@ type Rule struct {
 	//blabla
 	Position int `json:"Position"`
 	//增加一个变量类型int
-	Func     func(*Query4Audit, int) Rule
+	Func func(*Query4Audit, int) Rule
 }
+
 func (q *Query4Audit) RuleSameAlias() Rule {
 	return Rule{}
 }
@@ -28,7 +29,7 @@ func (q *Query4Audit) test(a int) Rule {
 }
 
 //源码比较复杂，简化为说明该场景的模式
-func testx(){
+func testx() {
 	q := &Query4Audit{Query: ""}
 
 	f1 := (*Query4Audit).test

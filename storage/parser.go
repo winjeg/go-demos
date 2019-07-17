@@ -5,6 +5,7 @@ package storage
 
 import (
 	"fmt"
+
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/ast"
 	_ "github.com/pingcap/tidb/types/parser_driver"
@@ -31,7 +32,7 @@ func (m MyVisitor) Enter(n ast.Node) (node ast.Node, skipChildren bool) {
 		fmt.Println(tn.Name)
 		return nil, true
 	}
-	return  nil, true
+	return nil, true
 }
 
 func (m MyVisitor) Leave(n ast.Node) (node ast.Node, ok bool) {

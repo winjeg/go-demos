@@ -1,7 +1,7 @@
 /// @Author winjeg,  winjeg@qq.com
 /// All rights reserved to winjeg
 
-package main
+package leetcode
 
 import "fmt"
 

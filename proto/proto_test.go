@@ -5,15 +5,15 @@ package proto
 
 import (
 	"context"
-	"google.golang.org/grpc"
 	"log"
 	"net"
 	"testing"
+
+	"google.golang.org/grpc"
 )
 
 // generate files needed
 //go:generate protoc --go_out=plugins=grpc:. hello.proto
-
 
 const (
 	address     = "localhost:8081"

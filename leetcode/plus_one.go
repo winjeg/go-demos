@@ -2,6 +2,7 @@
 /// All rights reserved to winjeg
 
 package leetcode
+
 func plusOne(digits []int) []int {
 	l := len(digits)
 	if l < 1 {

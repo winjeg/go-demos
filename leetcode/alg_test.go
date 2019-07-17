@@ -15,16 +15,13 @@ func TestMedian(t *testing.T) {
 
 func TestSolution_Shuffle(t *testing.T) {
 
-	nums := []int{2,3,7,6}
+	nums := []int{2, 3, 7, 6}
 
 	obj := Constructor(nums)
 	param_1 := obj.Reset()
 	param_2 := obj.Shuffle()
 	fmt.Println(param_1)
 	fmt.Println(param_2)
-
-
-
 
 	obj2 := Constructor2()
 	obj2.Push(-2)
@@ -53,7 +50,6 @@ func TestSolution_Shuffle(t *testing.T) {
 	fmt.Println(a[0:0])
 	fmt.Println(param_3, param_4)
 }
-
 
 func TestCountPrimes(t *testing.T) {
 	fmt.Println(countPrimes2(11999983))

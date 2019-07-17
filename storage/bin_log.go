@@ -13,7 +13,7 @@ import (
 )
 
 func readBinlog() {
-	cfg := replication.BinlogSyncerConfig {
+	cfg := replication.BinlogSyncerConfig{
 		ServerID: 1,
 		Flavor:   "mysql",
 		Host:     "127.0.0.1",

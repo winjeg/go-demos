@@ -20,7 +20,7 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 			finalArray = make([]int, n1Len+n2Len, n1Len+n2Len)
 			copy(finalArray, nums2)
 			copy(finalArray[n2Len:], nums1)
-		} else if nums1[n1Len-1 ] < nums2[0] {
+		} else if nums1[n1Len-1] < nums2[0] {
 			finalArray = make([]int, n1Len+n2Len, n1Len+n2Len)
 			copy(finalArray, nums1)
 			copy(finalArray[n1Len:], nums2)

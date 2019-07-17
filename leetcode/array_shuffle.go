@@ -33,7 +33,6 @@ func (this *Solution) Shuffle() []int {
 	return na
 }
 
-
 // XX 算法
 func countPrimes(n int) int {
 	if n < 2 {
@@ -69,10 +68,10 @@ func countPrimes(n int) int {
 func countPrimes2(n int) int {
 	res := 0
 	var p = make([]bool, n)
-	for i:=2;i<n;i++ {
+	for i := 2; i < n; i++ {
 		if !p[i] {
-			res ++
-			for j:=2;i*j<n;j++ {
+			res++
+			for j := 2; i*j < n; j++ {
 				p[i*j] = true
 			}
 		}
