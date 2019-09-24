@@ -2,6 +2,7 @@ module github.com/winjeg/demo
 
 require (
 	fyne.io/fyne v1.0.0
+	github.com/casbin/casbin v1.9.1
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190612170431-362f06ec6bc1 // indirect
 	github.com/cznic/sortutil v0.0.0-20181122101858-f5f958428db8 // indirect
