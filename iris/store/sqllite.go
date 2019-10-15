@@ -40,7 +40,7 @@ func GetDb() *sql.DB {
 	if lite != nil {
 		return lite
 	}
-	fileNameWithPath := util.GetCurrentPath("hamster.db")
+	fileNameWithPath := util.GetCurrentPath("iris.db")
 	once.Do(func() {
 		db, err := sql.Open("sqlite3", fileNameWithPath)
 		lite = db

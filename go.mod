@@ -37,3 +37,5 @@ require (
 	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3 // indirect
 	google.golang.org/grpc v1.21.1
 )
+
+go 1.13
