@@ -33,7 +33,9 @@ func TestProtoServer(t *testing.T) {
 		log.Fatalf("failed to listen: %v", err)
 	}
 	s := grpc.NewServer()
+	// 注册 相关的请求处理器
 	RegisterGreeterServer(s, &server{})
+	// 开始服务
 	s.Serve(lis)
 }
 

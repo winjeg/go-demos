@@ -34,15 +34,13 @@ func handleClientRequest(client net.Conn) {
 	}
 	defer client.Close()
 
-	var b [1024]byte
-	n, err := client.Read(b[:])
+	b := make([]byte, 0, 1024)
+	n, err := client.Read(b)
 	if err != nil {
 		log.Println(err)
 		return
 	}
-	var method string
-	fmt.Sscanf(string(b[:bytes.IndexByte(b[:], '\n')]), "%s", &method)
-
+	method := string(b[:bytes.IndexByte(b, '\n')])
 	proxyUrl := os.Args[1]
 	//获得了请求的host和port，就开始拨号吧
 	server, err := net.Dial("tcp", proxyUrl)
@@ -55,7 +53,8 @@ func handleClientRequest(client net.Conn) {
 	} else {
 		server.Write(b[:n])
 	}
-	//进行转发
+	//进行转发, client 的内容发给server
 	go io.Copy(server, client)
+	// server 返回的内容给到client
 	io.Copy(client, server)
 }
