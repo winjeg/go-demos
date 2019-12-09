@@ -2,10 +2,12 @@ module github.com/winjeg/demo
 
 require (
 	fyne.io/fyne v1.0.0
+	github.com/atotto/clipboard v0.1.2
 	github.com/casbin/casbin v1.9.1
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190612170431-362f06ec6bc1 // indirect
 	github.com/cznic/sortutil v0.0.0-20181122101858-f5f958428db8 // indirect
+	github.com/czxichen/otpauth v0.0.0-20190123031111-fb507387982c
 	github.com/go-gl/gl v0.0.0-20190320180904-bf2b1f2f34d7 // indirect
 	github.com/go-gl/glfw v0.0.0-20190407132400-39f94f807590 // indirect
 	github.com/goki/freetype v0.0.0-20181231101311-fa8a33aabaff // indirect
@@ -36,6 +38,7 @@ require (
 	golang.org/x/image v0.0.0-20190321063152-3fc05d484e9f // indirect
 	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3 // indirect
 	google.golang.org/grpc v1.21.1
+	gopkg.in/stretchr/testify.v1 v1.2.2 // indirect
 )
 
 go 1.13
