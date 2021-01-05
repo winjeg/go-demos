@@ -2,8 +2,9 @@ package otpauth
 
 import (
 	"fmt"
-	"github.com/czxichen/otpauth"
 	"time"
+
+	"github.com/czxichen/otpauth"
 )
 
 func GenerateCode(key string) string {
