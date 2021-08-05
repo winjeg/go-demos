@@ -2,6 +2,7 @@ module github.com/winjeg/demo
 
 require (
 	fyne.io/fyne v1.0.0
+	github.com/Lofanmi/chinese-calendar-golang v0.0.0-20210509153801-69ebfdebb1e4 // indirect
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/atotto/clipboard v0.1.2
 	github.com/casbin/casbin v1.9.1
