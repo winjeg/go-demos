@@ -2,7 +2,7 @@ module github.com/winjeg/demo
 
 require (
 	fyne.io/fyne v1.0.0
-	github.com/Lofanmi/chinese-calendar-golang v0.0.0-20210509153801-69ebfdebb1e4 // indirect
+	github.com/Lofanmi/chinese-calendar-golang v0.0.0-20210509153801-69ebfdebb1e4
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/atotto/clipboard v0.1.2
 	github.com/casbin/casbin v1.9.1
@@ -54,7 +54,7 @@ require (
 	github.com/yudai/pp v2.0.1+incompatible // indirect
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/zap v1.10.0 // indirect
-	golang.org/x/image v0.0.0-20190321063152-3fc05d484e9f // indirect
+	golang.org/x/image v0.5.0 // indirect
 	google.golang.org/grpc v1.21.1
 	gopkg.in/stretchr/testify.v1 v1.2.2 // indirect
 )
