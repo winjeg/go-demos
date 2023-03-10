@@ -2,7 +2,7 @@ module github.com/winjeg/demo
 
 require (
 	fyne.io/fyne v1.0.0
-	github.com/Lofanmi/chinese-calendar-golang v0.0.0-20210509153801-69ebfdebb1e4 // indirect
+	github.com/Lofanmi/chinese-calendar-golang v0.0.0-20210509153801-69ebfdebb1e4
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/atotto/clipboard v0.1.2
 	github.com/casbin/casbin v1.9.1
@@ -31,6 +31,7 @@ require (
 	github.com/pingcap/kvproto v0.0.0-20190531033352-d288a78c7482 // indirect
 	github.com/pingcap/parser v0.0.0-20190613082312-d2cf6071823d
 	github.com/pingcap/tidb v0.0.0-20190614074329-bb3a92d70f01
+	github.com/prometheus/client_golang v0.9.0
 	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20190512091148-babf20351dd7 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
